@@ -4,12 +4,22 @@
 
 <section markdown="1">
 
-## Deployment options
+## OpenShift deployment options
 
 <div class="form-entry">
   <div class="entry-title">Application name</div>
   <div class="entry-input">
-    <input id="artifact" type="text" placeholder="example-application"/>
+    <input id="application-name" type="text" placeholder="example-application"/>
+  </div>
+  <div class="entry-info">
+    {{lipsum_15}}
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Project name</div>
+  <div class="entry-input">
+    <input id="project-name" type="text" placeholder="example-project"/>
   </div>
   <div class="entry-info">
     {{lipsum_15}}

@@ -104,7 +104,7 @@
   </div>
 </div>
 
-**[+ Add a connected service]()**
+**[+ Add a connected service](add-connected-service.html)**
 
 </section>
 <section class="step-navigation" markdown="1">

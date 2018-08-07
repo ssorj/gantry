@@ -414,17 +414,35 @@ a.big-button {
     display: block;
     width: 24em;
     min-width: 20em;
-    border: 1px solid #ccc;
+    border: 1px solid #999;
     padding: 0.4em 0.6em;
     text-align: center;
     color: black;
     margin-top: 2em;
+    font-weight: bold;
 }
 
 a.gray-out {
     color: #999;
+    border: 1px solid #ccc;
 }
 
 section.step-navigation {
     margin-top: 3em;
+}
+
+section.step-navigation:last-child-of-type {
+    margin-bottom: 0;
+}
+
+body.excursion {
+    background-color: #333;
+}
+
+body.excursion #-body-content {
+    background-color: #fff;
+}
+
+body.excursion #-body-content {
+    padding: 3em;
 }

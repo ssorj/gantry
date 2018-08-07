@@ -1,3 +1,3 @@
 # Welcome
 
-[Create a new project](choose-runtime.html)
+[Create a connected application](choose-runtime.html)
