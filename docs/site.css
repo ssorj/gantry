@@ -409,3 +409,22 @@ code {
     color: #0009;
     padding: 0 0.15em;
 }
+
+a.big-button {
+    display: block;
+    width: 24em;
+    min-width: 20em;
+    border: 1px solid #ccc;
+    padding: 0.4em 0.6em;
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+}
+
+a.gray-out {
+    color: #999;
+}
+
+section.step-navigation {
+    margin-top: 3em;
+}
