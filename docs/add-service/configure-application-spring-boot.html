@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Step 2 - Configure your application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic|Ubuntu+Mono:400" type="text/css"/>
+    <link rel="stylesheet" href="https://www.ssorj.net/gantry/main.css" type="text/css"/>
+    <link rel="icon" href="" type="image/png"/>
+    <script type="text/javascript" src="https://www.ssorj.net/gantry/main.js" defer="defer"></script>
+
+
+
+  </head>
+  <body>
+    <div id="-body">
+      <div id="-body-content">
+
+<h1 id="step-2-configure-your-application">Step 2 - Configure your application</h1>
+
+<form>
+
+<section>
+
+<h2 id="project-type">Project type</h2>
+
+<div class="form-entry">
+  <div class="entry-title">Build tool</div>
+  <div class="entry-input">
+    <select id="build-tool">
+      <option value="maven">Maven</option>
+      <option value="gradle">Gradle</option>
+    </select>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Language</div>
+  <div class="entry-input">
+    <select id="programming-language" name="programming-language">
+      <option value="java">Java</option>
+      <option value="kotlin">Kotlin</option>
+      <option value="groovy">Groovy</option>
+    </select>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+</section>
+
+<section>
+
+<h2 id="project-metadata">Project metadata</h2>
+
+<div class="form-entry">
+  <div class="entry-title">Group</div>
+  <div class="entry-input">
+    <input id="group" type="text" placeholder="com.example"/>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Artifact</div>
+  <div class="entry-input">
+    <input id="artifact" type="text" placeholder="example-application"/>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+<p><a href="">More options</a></p>
+
+</section>
+
+<section>
+
+<h2 id="connected-services">Connected services</h2>
+
+<div class="item">
+  <div class="item-icon"></div>
+  <div class="item-text">
+    <div class="item-description">
+      <b>AMQP messaging service "msg1"</b> at <code>amq.openshift.com:5672</code> exposed as a <b>JMS ConnectionFactory</b>
+      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
+    </div>
+    <div class="item-info">
+    To access, use <code>ConnectedServices.getJmsConnectionFactory("msg1")</code> or JNDI resource <code>msg1</code> in your code
+    </div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="item-icon"></div>
+  <div class="item-text">
+    <div class="item-summary">
+      <b>PostgreSQL database "db1"</b> at <code>database.awsapps.com:5432</code> exposed as a <b>JDBC Connection</b>
+      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
+    </div>
+    <div class="item-info">
+      To access, use <code>ConnectedServices.getJdbcConnection("db1")</code> in your code
+    </div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="item-icon"></div>
+  <div class="item-text">
+    <div class="item-summary">
+      <b>REST API "api1"</b> at <code>someapi.example.com:8080/api</code> exposed as a <b>JAX-RS WebTarget</b>
+      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
+    </div>
+    <div class="item-info">
+      To access, use <code>ConnectedServices.getJaxRsWebTarget("api1")</code> in your code
+    </div>
+  </div>
+</div>
+
+<p><strong><a href="add-connected-service.html">+ Add a connected service</a></strong></p>
+
+</section>
+
+<section class="step-navigation">
+
+<p><a class="big-button" href="choose-deployment.html">Choose your deployment &#11106;</a></p>
+
+</section>
+
+</form>
+
+
+
+      </div>
+    </div>
+  </body>
+</html>

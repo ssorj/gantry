@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>[none]</title>
+    <title>{{title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic|Ubuntu+Mono:400" type="text/css"/>
-    <link rel="stylesheet" href="https://www.ssorj.net/gantry/main.css" type="text/css"/>
+    <link rel="stylesheet" href="{{site_url}}/main.css" type="text/css"/>
     <link rel="icon" href="" type="image/png"/>
-    <script type="text/javascript" src="https://www.ssorj.net/gantry/main.js" defer="defer"></script>
+    <script type="text/javascript" src="{{site_url}}/main.js" defer="defer"></script>
 
-
+@extra_headers@
 
   </head>
-  <body>
+  <body class="excursion">
     <div id="-body">
       <div id="-body-content">
 
-<p><a href="add-service/index.html">Add service</a></p>
-
-<p><a href="add-site/index.html">Add site</a></p>
-
-
+@body_template@
 
       </div>
     </div>
