@@ -7,36 +7,36 @@
 ## OpenShift deployment options
 
 <div class="form-entry">
-  <div class="entry-title">Application name</div>
+  <div class="entry-title">Service name</div>
   <div class="entry-input">
     <input id="application-name" type="text" placeholder="example-application"/>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">Project name</div>
+  <div class="entry-title">Namespace</div>
   <div class="entry-input">
     <input id="project-name" type="text" placeholder="example-project"/>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">OpenShift cluster</div>
+  <div class="entry-title">Site (cluster)</div>
   <div class="entry-input">
-    <select id="openshift-cluster" name="openshift-cluster">
-      <option value="apac">Asia Pacific (Sydney)</option>
-      <option value="emea">EU West (Ireland)</option>
-      <option value="na">US East (North Virginia)</option>
+    <select id="site">
+      <option value="headquarters">headquarters</option>
+      <option value="na-east">na-east</option>
+      <option value="na-west">na-west</option>
     </select>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -50,4 +50,3 @@
 </section>
 
 </form>
-

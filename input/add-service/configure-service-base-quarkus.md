@@ -1,4 +1,4 @@
-# Step 2 - Configure your application
+# Step 2 - Configure your service
 
 <form markdown="1">
 
@@ -15,7 +15,7 @@
     </select>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -63,48 +63,39 @@
 </section>
 <section markdown="1">
 
-## Connected services
-
-<div class="item">
-  <div class="item-icon"></div>
-  <div class="item-text">
-    <div class="item-description">
-      <b>AMQP messaging service "msg1"</b> at <code>amq.openshift.com:5672</code> exposed as a <b>JMS ConnectionFactory</b>
-      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
-    </div>
-    <div class="item-info">
-    To access, use <code>ConnectedServices.getJmsConnectionFactory("msg1")</code> or JNDI resource <code>msg1</code> in your code
-    </div>
-  </div>
-</div>
+## Required resources
 
 <div class="item">
   <div class="item-icon"></div>
   <div class="item-text">
     <div class="item-summary">
-      <b>PostgreSQL database "db1"</b> at <code>database.awsapps.com:5432</code> exposed as a <b>JDBC Connection</b>
+      <b>PostgreSQL database</b> at <code>tcp://database:5432</code> exposed as a <b>JDBC Connection</b>
       <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
     </div>
     <div class="item-info">
-      To access, use <code>ConnectedServices.getJdbcConnection("db1")</code> in your code
+      To access, use <code>ServiceResources.getJdbcConnection("db1")</code> in your code
     </div>
   </div>
 </div>
+
+**[+ Add a required resource](add-required-resource.html)**
+
+</section>
+<section markdown="1">
+
+## Provided resources
 
 <div class="item">
   <div class="item-icon"></div>
   <div class="item-text">
     <div class="item-summary">
-      <b>REST API "api1"</b> at <code>someapi.example.com:8080/api</code> exposed as a <b>JAX-RS WebTarget</b>
+      <b>REST API</b> at <code>http://&lt;service-url&gt;:8080/api</code>
       <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
-    </div>
-    <div class="item-info">
-      To access, use <code>ConnectedServices.getJaxRsWebTarget("api1")</code> in your code
     </div>
   </div>
 </div>
 
-**[+ Add a connected service](add-connected-service.html)**
+**[+ Add a provided resource](add-provided-resource.html)**
 
 </section>
 <section class="step-navigation" markdown="1">

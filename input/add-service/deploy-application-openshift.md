@@ -1,4 +1,4 @@
-# Your application is ready
+# Your service is ready
 
 <section markdown="1">
 
@@ -18,4 +18,4 @@ Your project source code is available at:
 
 <br/>
 
-*[Start over](choose-runtime.html)*
+*[Start over](index.html)*

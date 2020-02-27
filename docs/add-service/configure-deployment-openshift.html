@@ -3,7 +3,7 @@
   <head>
     <title>Step 4 - Configure your deployment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic|Ubuntu+Mono:400" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic|Ubuntu+Mono:400" type="text/css"/>
     <link rel="stylesheet" href="https://www.ssorj.net/gantry/main.css" type="text/css"/>
     <link rel="icon" href="" type="image/png"/>
     <script type="text/javascript" src="https://www.ssorj.net/gantry/main.js" defer="defer"></script>
@@ -12,8 +12,28 @@
 
   </head>
   <body>
-    <div id="-body">
-      <div id="-body-content">
+
+<header>
+  <div>
+    <nav id="-left-site-nav">
+      <a href="https://www.ssorj.net/gantry/index.html" id="-logotype">Gantry</a>
+    </nav>
+    <nav id="-right-site-nav">
+      <a href="">Hi, Alice</a>
+    </nav>
+  </div>
+</header>
+
+
+<section>
+  <div id="-browser">
+    <nav>
+      <a href="index.html">Application</a>
+      <a href="services.html">Services</a>
+      <a href="sites.html">Sites</a>
+      <a href="processes.html">Processes</a>
+    </nav>
+    <main>
 
 <h1 id="step-4-configure-your-deployment">Step 4 - Configure your deployment</h1>
 
@@ -24,45 +44,36 @@
 <h2 id="openshift-deployment-options">OpenShift deployment options</h2>
 
 <div class="form-entry">
-  <div class="entry-title">Application name</div>
+  <div class="entry-title">Service name</div>
   <div class="entry-input">
     <input id="application-name" type="text" placeholder="example-application"/>
   </div>
   <div class="entry-info">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-interdum orci eget metus dapibus, dictum mollis.
-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">Project name</div>
+  <div class="entry-title">Namespace</div>
   <div class="entry-input">
     <input id="project-name" type="text" placeholder="example-project"/>
   </div>
   <div class="entry-info">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-interdum orci eget metus dapibus, dictum mollis.
-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">OpenShift cluster</div>
+  <div class="entry-title">Site (cluster)</div>
   <div class="entry-input">
-    <select id="openshift-cluster" name="openshift-cluster">
-      <option value="apac">Asia Pacific (Sydney)</option>
-      <option value="emea">EU West (Ireland)</option>
-      <option value="na">US East (North Virginia)</option>
+    <select id="site">
+      <option value="headquarters">headquarters</option>
+      <option value="na-east">na-east</option>
+      <option value="na-west">na-west</option>
     </select>
   </div>
   <div class="entry-info">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-interdum orci eget metus dapibus, dictum mollis.
-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
 </div>
 
@@ -79,8 +90,16 @@ interdum orci eget metus dapibus, dictum mollis.
 </form>
 
 
+    </main>
+  </div>
+</section>
 
-      </div>
-    </div>
+<footer>
+  <div>
+  </div>
+</footer>
+
+
+
   </body>
 </html>

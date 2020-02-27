@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Step 2 - Configure your service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic|Ubuntu+Mono:400" type="text/css"/>
+    <link rel="stylesheet" href="https://www.ssorj.net/gantry/main.css" type="text/css"/>
+    <link rel="icon" href="" type="image/png"/>
+    <script type="text/javascript" src="https://www.ssorj.net/gantry/main.js" defer="defer"></script>
+
+
+
+  </head>
+  <body>
+
+<header>
+  <div>
+    <nav id="-left-site-nav">
+      <a href="https://www.ssorj.net/gantry/index.html" id="-logotype">Gantry</a>
+    </nav>
+    <nav id="-right-site-nav">
+      <a href="">Hi, Alice</a>
+    </nav>
+  </div>
+</header>
+
+
+<section>
+  <div id="-browser">
+    <nav>
+      <a href="index.html">Application</a>
+      <a href="services.html">Services</a>
+      <a href="sites.html">Sites</a>
+      <a href="processes.html">Processes</a>
+    </nav>
+    <main>
+
+<h1 id="step-2-configure-your-service">Step 2 - Configure your service</h1>
+
+<form>
+
+<section>
+
+<h2 id="project-type">Project type</h2>
+
+<div class="form-entry">
+  <div class="entry-title">Build tool</div>
+  <div class="entry-input">
+    <select id="build-tool">
+      <option value="maven">Maven</option>
+      <option value="gradle">Gradle</option>
+    </select>
+  </div>
+  <div class="entry-info">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Language</div>
+  <div class="entry-input">
+    <select id="programming-language" name="programming-language">
+      <option value="java">Java</option>
+      <option value="kotlin">Kotlin</option>
+      <option value="groovy">Groovy</option>
+    </select>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+</section>
+
+<section>
+
+<h2 id="project-metadata">Project metadata</h2>
+
+<div class="form-entry">
+  <div class="entry-title">Group</div>
+  <div class="entry-input">
+    <input id="group" type="text" placeholder="com.example"/>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Artifact</div>
+  <div class="entry-input">
+    <input id="artifact" type="text" placeholder="example-application"/>
+  </div>
+  <div class="entry-info">
+    
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+interdum orci eget metus dapibus, dictum mollis.
+
+  </div>
+</div>
+
+<p><a href="">More options</a></p>
+
+</section>
+
+<section>
+
+<h2 id="required-resources">Required resources</h2>
+
+<div class="item">
+  <div class="item-icon"></div>
+  <div class="item-text">
+    <div class="item-summary">
+      <b>PostgreSQL database</b> at <code>tcp://database:5432</code> exposed as a <b>JDBC Connection</b>
+      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
+    </div>
+    <div class="item-info">
+      To access, use <code>ServiceResources.getJdbcConnection("db1")</code> in your code
+    </div>
+  </div>
+</div>
+
+<p><strong><a href="add-required-resource.html">+ Add a required resource</a></strong></p>
+
+</section>
+
+<section>
+
+<h2 id="provided-resources">Provided resources</h2>
+
+<div class="item">
+  <div class="item-icon"></div>
+  <div class="item-text">
+    <div class="item-summary">
+      <b>REST API</b> at <code>http://&lt;service-url&gt;:8080/api</code>
+      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
+    </div>
+  </div>
+</div>
+
+<p><strong><a href="add-provided-resource.html">+ Add a provided resource</a></strong></p>
+
+</section>
+
+<section class="step-navigation">
+
+<p><a class="big-button" href="choose-deployment.html">Choose your deployment &#11106;</a></p>
+
+</section>
+
+</form>
+
+
+    </main>
+  </div>
+</section>
+
+<footer>
+  <div>
+  </div>
+</footer>
+
+
+
+  </body>
+</html>

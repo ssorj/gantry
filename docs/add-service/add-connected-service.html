@@ -3,7 +3,7 @@
   <head>
     <title>Add a connected service</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic|Ubuntu+Mono:400" type="text/css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic|Ubuntu+Mono:400" type="text/css"/>
     <link rel="stylesheet" href="https://www.ssorj.net/gantry/main.css" type="text/css"/>
     <link rel="icon" href="" type="image/png"/>
     <script type="text/javascript" src="https://www.ssorj.net/gantry/main.js" defer="defer"></script>
@@ -12,8 +12,28 @@
 
   </head>
   <body>
-    <div id="-body">
-      <div id="-body-content">
+
+<header>
+  <div>
+    <nav id="-left-site-nav">
+      <a href="https://www.ssorj.net/gantry/index.html" id="-logotype">Gantry</a>
+    </nav>
+    <nav id="-right-site-nav">
+      <a href="">Hi, Alice</a>
+    </nav>
+  </div>
+</header>
+
+
+<section>
+  <div id="-browser">
+    <nav>
+      <a href="index.html">Application</a>
+      <a href="services.html">Services</a>
+      <a href="sites.html">Sites</a>
+      <a href="processes.html">Processes</a>
+    </nav>
+    <main>
 
 <h1 id="add-a-connected-service">Add a connected service</h1>
 
@@ -21,22 +41,19 @@
 
 <section class="step-navigation">
 
-<h2 id="connect-an-existing-service-on-openshift">Connect an existing service on OpenShift</h2>
+<h2 id="connect-an-existing-service">Connect an existing service</h2>
 
 <div class="form-entry">
-  <div class="entry-title">OpenShift project</div>
+  <div class="entry-title">Site</div>
   <div class="entry-input">
-    <select id="openshift-project">
-      <option value="storefront">Storefront</option>
-      <option value="beta">Inventory</option>
-      <option value="omega">Finance</option>
+    <select id="site">
+      <option value="headquarters">headquarters</option>
+      <option value="na-east">na-east</option>
+      <option value="na-west">na-west</option>
     </select>
   </div>
   <div class="entry-info">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-interdum orci eget metus dapibus, dictum mollis.
-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
 </div>
 
@@ -44,61 +61,45 @@ interdum orci eget metus dapibus, dictum mollis.
   <div class="entry-title">Service</div>
   <div class="entry-input">
     <select id="service">
-      <option value="beta">MySQL database at <code>database2.awsapps.com:5432</code></option>
-      <option value="beta">CouchDB database at <code>database3.awsapps.com:2345</code></option>
-      <option value="alpha">AMQP messaging service at amq.openshift.com:5672</option>
+      <option value="inventory">inventory</option>
+      <option value="frontend">frontend</option>
+      <option value="reviews">reviews</option>
+      <option value="orders">orders</option>
+      <option value="database">database</option>
     </select>
   </div>
   <div class="entry-info">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-interdum orci eget metus dapibus, dictum mollis.
-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">API object name</div>
+  <div class="entry-title">Resource path</div>
   <div class="entry-input">
-    <input id="group" type="text" placeholder="service1"></input>
+    <input id="resource-path" type="text" placeholder="/api"></input>
   </div>
   <div class="entry-info">
-    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-interdum orci eget metus dapibus, dictum mollis.
-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
 </div>
 
-<p><a class="big-button" href="configure-application-spring-boot.html">Add service</a></p>
-
-</section>
-
-<section class="step-navigation">
-
-<h2 id="provision-a-new-service-on-openshift">Provision a new service on OpenShift</h2>
-
-<p><em>Not yet complete</em></p>
-
-<p><a class="big-button" href="configure-application-spring-boot.html">Add service</a></p>
-
-</section>
-
-<section class="step-navigation">
-
-<h2 id="connect-an-existing-service-on-the-internet">Connect an existing service on the internet</h2>
-
-<p><em>Not yet complete</em></p>
-
-<p><a class="big-button" href="configure-application-spring-boot.html">Add service</a></p>
+<p><a class="big-button" href="configure-service-base-quarkus.html">Add connected service</a></p>
 
 </section>
 
 </form>
 
 
+    </main>
+  </div>
+</section>
 
-      </div>
-    </div>
+<footer>
+  <div>
+  </div>
+</footer>
+
+
+
   </body>
 </html>
