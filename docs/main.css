@@ -281,8 +281,17 @@ a.big-button {
     padding: 0.4em 0.6em;
     text-align: center;
     color: black;
-    margin-top: 2em;
-    font-weight: bold;
+    font-weight: 400;
+}
+
+a.small-button {
+    display: block;
+    width: 12em;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    text-align: center;
+    color: black;
+    font-weight: 400;
 }
 
 a.gray-out {
@@ -317,7 +326,6 @@ section,
 footer {
     width: 100%;
     margin: 0;
-    border-top: 1px solid black;
 }
 
 header > div,
@@ -325,6 +333,14 @@ section > div,
 footer > div {
     max-width: 960px;
     margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #999;
+}
+
+footer {
+    border-top: 1px solid #999;
 }
 
 /* --- */
@@ -357,12 +373,13 @@ header a {
     width: 20%;
     margin: 0;
     padding-right: 2em;
-    border-right: 1px solid black;
+    border-right: 1px solid #999;
 }
 
 #-browser > nav > a {
     display: block;
     margin-bottom: 1em;
+    color: #666;
 }
 
 #-browser > nav > a:last-of-type {
@@ -370,6 +387,7 @@ header a {
 }
 
 #-browser > nav > a.selected {
+    font-weight: 600;
     color: black;
 }
 
@@ -377,4 +395,41 @@ header a {
     width: 80%;
     margin: 0;
     padding-left: 2em;
+}
+
+/* --- */
+
+#-view-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#-view-top > * {
+    margin: 0 0 0.6em 0;
+}
+
+#-view-legend {
+    font-size: 1.3em;
+}
+
+/* --- */
+
+#-excursion {
+    background-color: #333;
+    min-height: 960px;
+    padding: 4em;
+}
+
+#-excursion > div {
+    width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: white;
+}
+
+/* --- */
+
+html {
+    overflow-y: scroll;
 }

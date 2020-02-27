@@ -1,3 +1,7 @@
+---
+body_template: input/_transom/excursion.html
+---
+
 # Step 2 - Configure your service
 
 <form markdown="1">
@@ -29,7 +33,7 @@
     </select>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -44,7 +48,7 @@
     <input id="group" type="text" placeholder="com.example"/>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -54,7 +58,7 @@
     <input id="artifact" type="text" placeholder="example-application"/>
   </div>
   <div class="entry-info">
-    {{lipsum_15}}
+    {{lipsum(15)}}
   </div>
 </div>
 

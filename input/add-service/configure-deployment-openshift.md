@@ -1,3 +1,7 @@
+---
+body_template: input/_transom/excursion.html
+---
+
 # Step 4 - Configure your deployment
 
 <form markdown="1">

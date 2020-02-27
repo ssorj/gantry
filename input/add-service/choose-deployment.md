@@ -1,3 +1,7 @@
+---
+body_template: input/_transom/excursion.html
+---
+
 # Step 3 - Choose your deployment
 
 <section markdown="1">

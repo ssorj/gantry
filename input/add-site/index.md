@@ -1,3 +1,7 @@
+---
+body_template: input/_transom/excursion.html
+---
+
 # Add a site
 
 What is a site?  XXX.

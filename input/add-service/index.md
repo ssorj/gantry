@@ -1,3 +1,7 @@
+---
+body_template: input/_transom/excursion.html
+---
+
 # Add a service
 
 1. Choose your service type
