@@ -3,6 +3,7 @@
   <div id="-view-legend">{{app_name}} - Sites</div>
   <nav>
     <a href="add-site/index.html" class="small-button">Add site</a>
+    <a href="" class="small-button">Add connection</a>
   </nav>
 </div>
 

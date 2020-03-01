@@ -1,1 +1,1 @@
-app_name = "Company &amp; Co online store"
+app_name = "CompanyCo online store"

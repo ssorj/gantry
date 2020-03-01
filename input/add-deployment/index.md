@@ -2,11 +2,9 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Add a connected service
+# Add an interface
 
 <form markdown="1">
-
-<section class="step-navigation" markdown="1">
 
 ## Connect an existing service
 
@@ -50,8 +48,8 @@ body_template: input/_transom/excursion.html
   </div>
 </div>
 
-<a class="big-button" href="configure-service-base-quarkus.html">Add connected service</a>
-
-</section>
+<nav class="form-nav">
+  <a class="big-button" href="configure-service-quarkus.html">Add interface</a>
+</nav>
 
 </form>

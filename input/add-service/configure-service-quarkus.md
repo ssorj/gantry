@@ -6,7 +6,17 @@ body_template: input/_transom/excursion.html
 
 <form markdown="1">
 
-<section markdown="1">
+## Service metadata
+
+<div class="form-entry">
+  <div class="entry-title">Name</div>
+  <div class="entry-input">
+    <input id="group" type="text" placeholder="example" value="reviews"/>
+  </div>
+  <div class="entry-info">
+    {{lipsum(15)}}
+  </div>
+</div>
 
 ## Project type
 
@@ -37,15 +47,12 @@ body_template: input/_transom/excursion.html
   </div>
 </div>
 
-</section>
-<section markdown="1">
-
 ## Project metadata
 
 <div class="form-entry">
   <div class="entry-title">Group</div>
   <div class="entry-input">
-    <input id="group" type="text" placeholder="com.example"/>
+    <input id="group" type="text" placeholder="com.example" value="com.companyco"/>
   </div>
   <div class="entry-info">
     {{lipsum(15)}}
@@ -55,57 +62,32 @@ body_template: input/_transom/excursion.html
 <div class="form-entry">
   <div class="entry-title">Artifact</div>
   <div class="entry-input">
-    <input id="artifact" type="text" placeholder="example-application"/>
+    <input id="artifact" type="text" placeholder="example-application" value="reviews"/>
   </div>
   <div class="entry-info">
     {{lipsum(15)}}
   </div>
 </div>
 
-[More options]()
-
-</section>
-<section markdown="1">
-
-## Required resources
+## Provided interfaces
 
 <div class="item">
   <div class="item-icon"></div>
   <div class="item-text">
     <div class="item-summary">
-      <b>PostgreSQL database</b> at <code>tcp://database:5432</code> exposed as a <b>JDBC Connection</b>
+      <b>REST API</b> at <code>http://reviews:8080/api/v1</code>
       <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
     </div>
     <div class="item-info">
-      To access, use <code>ServiceResources.getJdbcConnection("db1")</code> in your code
+      CompanyCo Reviews API v1.1
     </div>
   </div>
 </div>
 
-**[+ Add a required resource](add-required-resource.html)**
+<a class="small-button" href="add-interface.html">Add interface</a>
 
-</section>
-<section markdown="1">
-
-## Provided resources
-
-<div class="item">
-  <div class="item-icon"></div>
-  <div class="item-text">
-    <div class="item-summary">
-      <b>REST API</b> at <code>http://&lt;service-url&gt;:8080/api</code>
-      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
-    </div>
-  </div>
-</div>
-
-**[+ Add a provided resource](add-provided-resource.html)**
-
-</section>
-<section class="step-navigation" markdown="1">
-
-<a class="big-button" href="choose-deployment.html">Choose your deployment &#11106;</a>
-
-</section>
+<nav class="form-nav">
+  <a class="big-button" href="result.html">Create service &#11106;</a>
+</nav>
 
 </form>

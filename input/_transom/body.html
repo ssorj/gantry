@@ -1,19 +1,27 @@
-{{include(page, "includes/header.html")}}
+<body>
+  {{include(page, "includes/header.html")}}
 
-<section>
-  <div id="-browser">
-    <nav>
-      <a href="index.html">Application</a>
-      <a href="services.html">Services</a>
-      <a href="sites.html">Sites</a>
-      <a href="processes.html">Processes</a>
-    </nav>
-    <main>
+  <section>
+    <div id="-browser">
+      <nav>
+        <a href="index.html">Application</a>
+        <a href="services.html">Services</a>
+        <a href="sites.html">Sites</a>
+        <a href="deployments.html">Deployments</a>
+        <a href="processes.html">Processes</a>
+
+        <hr/>
+
+        <a href="service-types.html">Service types</a>
+        <a href="site-types.html">Site types</a>
+      </nav>
+      <main>
 
 @content@
 
-    </main>
-  </div>
-</section>
+      </main>
+    </div>
+  </section>
 
-{{include(page, "includes/footer.html")}}
+  {{include(page, "includes/footer.html")}}
+</body>

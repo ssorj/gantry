@@ -135,10 +135,18 @@ form input {
     width: 16em;
 }
 
+form input[type="checkbox"] {
+    width: 1em;
+    min-width: inherit;
+    position: relative;
+    top: 0.05em;
+}
+
 form button {
     background-color: rgb(247, 247, 247);
     padding: 0 0.4em;
     font-weight: 300;
+    border-radius: 0.2em;
 }
 
 table {
@@ -160,7 +168,8 @@ th {
 }
 
 hr {
-    border-bottom: 1px solid #ddd;
+    margin: 2em 0;
+    border-bottom: 1px solid #999;
 }
 
 code,
@@ -189,7 +198,7 @@ div.form-entry {
 }
 
 div.form-entry > div.entry-title {
-    font-weight: bold;
+    font-weight: 500;
     width: 10em;
     min-width: 10em;
     position: relative;
@@ -205,7 +214,6 @@ div.form-entry > div.entry-info {
     font-size: 0.9em;
     line-height: 1.2em;
     width: 20em;
-    min-width: 20em;
 }
 
 input, select {
@@ -219,7 +227,7 @@ input, select {
 select {
     font: inherit;
     background: inherit;
-    border: 1px solid #ccc;
+    border: 1px solid #999;
 }
 
 XXXsection {
@@ -233,8 +241,10 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 2em;
-    color: #700c;
+    border-top: 1px solid #999;
+    padding-top: 1em;
+    margin: 2em 0;
+    color: #999;
     text-transform: uppercase;
     font-size: 0.9em;
 }
@@ -245,11 +255,11 @@ div.item {
 }
 
 div.item-icon {
-    height: 2em;
-    min-width: 2em;
-    width: 2em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
+    height: 2.8em;
+    min-width: 2.8em;
+    width: 2.8em;
+    border: 2px solid #ccc;
+    border-radius: 1.4em;
     margin-right: 1em;
     position: relative;
     top: 0.2em;
@@ -260,9 +270,11 @@ div.item-info {
 }
 
 a.item-operation {
+    color: black;
     margin-left: 1em;
     padding: 0.3em 0.6em;
-    border: 1px solid #ccc;
+    border: 1px solid #999;
+    border-radius: 0.2em;
     font-size: 0.8em;
     position: relative;
     top: -0.1em;
@@ -274,10 +286,12 @@ code {
 }
 
 a.big-button {
-    display: block;
-    width: 24em;
+    display: inline-block;
+    width: 22em;
     min-width: 20em;
+    margin-right: 2em;
     border: 1px solid #999;
+    border-radius: 0.2em;
     padding: 0.4em 0.6em;
     text-align: center;
     color: black;
@@ -285,10 +299,10 @@ a.big-button {
 }
 
 a.small-button {
-    display: block;
-    width: 12em;
+    display: inline-block;
     border: 1px solid #999;
-    padding: 0.4em 0.6em;
+    border-radius: 0.2em;
+    padding: 0.4em 0.8em;
     text-align: center;
     color: black;
     font-weight: 400;
@@ -299,24 +313,10 @@ a.gray-out {
     border: 1px solid #ccc;
 }
 
-section.step-navigation {
-    margin-top: 3em;
-}
-
-section.step-navigation:last-child-of-type {
-    margin-bottom: 0;
-}
-
-body.excursion {
-    background-color: #333;
-}
-
-body.excursion #-body-content {
-    background-color: #fff;
-}
-
-body.excursion #-body-content {
-    padding: 3em;
+nav.form-nav {
+    margin: 3em 0 0 0;
+    border-top: 1px solid #999;
+    padding-top: 3em;
 }
 
 /* --- */
@@ -413,18 +413,25 @@ header a {
     font-size: 1.3em;
 }
 
+#-view-top > nav > a {
+    margin-left: 1em;
+}
+
 /* --- */
 
 #-excursion {
     background-color: #333;
+}
+
+#-excursion > section {
     min-height: 960px;
     padding: 4em;
 }
 
-#-excursion > div {
+#-excursion > section > div {
     width: 960px;
     margin: 0 auto;
-    padding: 2em;
+    padding: 3em;
     background-color: white;
 }
 

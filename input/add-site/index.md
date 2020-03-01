@@ -2,9 +2,8 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Add a site
+# Step 1 - Choose your site type
 
-What is a site?  XXX.
+<a class="big-button" href="configure-site-openshift.html">Create an OpenShift namespace &#11106;</a>
 
-1. Configure your site
-1. Connect XXX
+<a class="big-button gray-out" href="">Create an EKS namespace &#11106;</a>
