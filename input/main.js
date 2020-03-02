@@ -33,18 +33,17 @@ Element.prototype.$$ = function () {
 };
 
 window.addEventListener("load", () => {
-    let path = window.location.pathname;
-    let child = $("#-browser > nav").firstChild;
+    let href = window.location.href;
+    let nav = $("#-browser > nav");
+    let child = nav.firstChild;
 
-    if (path.charAt(path.length - 1) === "/") {
-        path += "index.html";
+    if (href.charAt(href.length - 1) === "/") {
+        href += "index.html";
     }
 
     while (child) {
-        if (child.nodeType === 1 && child.id !== "-logotype") {
-            let file = child.href.substring(child.href.lastIndexOf("/") + 1);
-
-            if (path.endsWith(file)) {
+        if (child.nodeType === 1) {
+            if (child.href === href) {
                 child.classList.add("selected");
             }
         }
