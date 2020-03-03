@@ -6,15 +6,17 @@ body_template: input/_transom/excursion.html
 
 <form markdown="1">
 
-## Connect an existing service
+## Interface properties
 
 <div class="form-entry">
-  <div class="entry-title">Site</div>
+  <div class="entry-title">Interface type</div>
   <div class="entry-input">
-    <select id="site">
-      <option value="headquarters">headquarters</option>
-      <option value="na-east">na-east</option>
-      <option value="na-west">na-west</option>
+    <select id="interface-type">
+      <option value="">REST API</option>
+      <option value="">AMQP</option>
+      <option value="">Kafka</option>
+      <option value="">PostgreSQL</option>
+      <option value="">STOMP</option>
     </select>
   </div>
   <div class="entry-info">
@@ -23,14 +25,22 @@ body_template: input/_transom/excursion.html
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">Service</div>
+  <div class="entry-title">Prefix</div>
   <div class="entry-input">
-    <select id="service">
-      <option value="inventory">inventory</option>
-      <option value="frontend">frontend</option>
-      <option value="reviews">reviews</option>
-      <option value="orders">orders</option>
-      <option value="database">database</option>
+    <input value="/api/v1"/>
+  </div>
+  <div class="entry-info">
+    {{lipsum(15)}}
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Schema name</div>
+  <div class="entry-input">
+    <select id="schema-name">
+      <option value="">CompanyCo Reviews</option>
+      <option value="">CompanyCo Orders</option>
+      <option value="">CompanyCo Inventory</option>
     </select>
   </div>
   <div class="entry-info">
@@ -39,9 +49,14 @@ body_template: input/_transom/excursion.html
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">Resource path</div>
+  <div class="entry-title">Schema version</div>
   <div class="entry-input">
-    <input id="resource-path" type="text" placeholder="/api"></input>
+    <select id="schema-version">
+      <option value="">1.1</option>
+      <option value="">1.3</option>
+      <option value="">1.4</option>
+      <option value="">2.0</option>
+    </select>
   </div>
   <div class="entry-info">
     {{lipsum(15)}}

@@ -6,15 +6,12 @@ body_template: input/_transom/excursion.html
 
 <form markdown="1">
 
-## Project type
+## Namespace properties
 
 <div class="form-entry">
-  <div class="entry-title">Build tool</div>
+  <div class="entry-title">Name</div>
   <div class="entry-input">
-    <select id="build-tool">
-      <option value="maven">Maven</option>
-      <option value="gradle">Gradle</option>
-    </select>
+    <input value="eu-north"/>
   </div>
   <div class="entry-info">
     {{lipsum(15)}}

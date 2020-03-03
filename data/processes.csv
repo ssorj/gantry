@@ -1,0 +1,23 @@
+Name,Deployment,CPU,Memory,Storage,Image
+reviews-1-m3o99,na-west/reviews,80%,50%,20%,companyco/reviews 7d19efc
+postgres-2-8majj,headquarters/postgres,80%,30%,60%,postgres/12.2 05e2ec8
+strimzi-1-3jam4,headquarters/strimzi,64%,50%,20%,strimzi/1.1 892bc1c
+frontend-2-9frlg,na-west/frontend,55%,51%,20%,companyco/frontend 6b89e6f
+frontend-2-d451g,na-west/frontend,53%,53%,20%,companyco/frontend 6b89e6f
+inventory-5-229c0,headquarters/inventory,50%,34%,20%,companyco/inventory 2f2ef84
+frontend-2-3a56h,na-east/frontend,50%,70%,20%,companyco/frontend 6b89e6f
+frontend-3-20afe,na-east/frontend,50%,65%,80%,companyco/frontend 0a667db
+strimzi-1-f8k2a,headquarters/strimzi,50%,50%,20%,strimzi/1.1 892bc1c
+strimzi-1-se20f,headquarters/strimzi,50%,50%,20%,strimzi/1.1 892bc1c
+orders-4-3ki42,na-west/orders,50%,50%,20%,companyco/orders 5f116eb
+orders-4-3ki42,na-west/orders,50%,50%,20%,companyco/orders 5f116eb
+orders-4-3ki42,na-east/orders,50%,50%,20%,companyco/orders 5f116eb
+orders-4-3ki42,na-east/orders,50%,50%,20%,companyco/orders 5f116eb
+reviews-1-m3o99,na-west/reviews,50%,50%,20%,companyco/reviews 7d19efc
+postgres-2-4464b,headquarters/postgres,50%,32%,60%,postgres/12.2 05e2ec8
+frontend-2-d79lj,na-west/frontend,50%,59%,20%,companyco/frontend 6b89e6f
+frontend-3-k2lnp,na-east/frontend,45%,65%,90%,companyco/frontend 0a667db
+reviews-1-m3o99,na-west/reviews,40%,50%,20%,companyco/reviews 7d19efc
+inventory-5-jma34,headquarters/inventory,19%,34%,20%,companyco/inventory 2f2ef84
+reviews-1-m3o99,na-west/reviews,17%,50%,20%,companyco/reviews 7d19efc
+strimzi-1-9ld7j,headquarters/strimzi,15%,50%,20%,strimzi/1.1 892bc1c
