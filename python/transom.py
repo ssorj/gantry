@@ -1040,7 +1040,8 @@ def _html_table_csv(csv_path, **attrs):
     return _html_table(items, **attrs)
 
 def _html_table(items, column_headings=True, row_headings=False,
-                escape_cell_data=False, **attrs):
+                escape_cell_data=False, cell_render_fn=None,
+                **attrs):
     rows = list()
 
     if column_headings:
@@ -1053,14 +1054,17 @@ def _html_table(items, column_headings=True, row_headings=False,
 
         items = items[1:]
 
-    for item in items:
+    for row_index, item in enumerate(items):
         cols = list()
 
-        for i, cell in enumerate(item):
+        for column_index, cell in enumerate(item):
             if escape_cell_data:
                 cell = _xml_escape(cell)
 
-            if i == 0 and row_headings:
+            if cell_render_fn is not None:
+                cell = cell_render_fn(row_index, column_index, cell)
+
+            if column_index == 0 and row_headings:
                 cols.append(_html_elem("th", cell))
             else:
                 cols.append(_html_elem("td", cell))
