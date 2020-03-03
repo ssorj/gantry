@@ -441,3 +441,14 @@ header a {
 html {
     overflow-y: scroll;
 }
+
+/* --- */
+
+nav.variants {
+    font-style: italic;
+}
+
+nav.variants > a {
+    color: green;
+    padding-right: 2em;
+}

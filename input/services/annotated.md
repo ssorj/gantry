@@ -7,7 +7,7 @@
   </nav>
 </div>
 
-<img src="{{site_url}}/images/services.svg"/>
+<img src="{{site_url}}/images/services-annotated.svg"/>
 
 <nav class="variants">
   <a href="index.html">Base</a>
