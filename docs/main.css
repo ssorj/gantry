@@ -452,3 +452,9 @@ nav.variants > a {
     color: green;
     padding-right: 2em;
 }
+
+/* --- */
+
+table.properties th {
+    padding-right: 2em;
+}
