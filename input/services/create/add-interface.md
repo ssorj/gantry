@@ -25,7 +25,17 @@ body_template: input/_transom/excursion.html
 </div>
 
 <div class="form-entry">
-  <div class="entry-title">Prefix</div>
+  <div class="entry-title">Port</div>
+  <div class="entry-input">
+    <input value="8080"/>
+  </div>
+  <div class="entry-info">
+    {{lipsum(15)}}
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Path prefix</div>
   <div class="entry-input">
     <input value="/api/v1"/>
   </div>

@@ -2,6 +2,7 @@
   <div id="-view-legend">{{app_name}}</div>
   <nav>
     <a href="" class="small-button">Edit properties</a>
+    <a href="" class="small-button">Edit YAML</a>
   </nav>
 </div>
 
