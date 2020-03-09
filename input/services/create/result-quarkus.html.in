@@ -2,13 +2,13 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Service created
+<h1>Service created</h1>
 
 <hr/>
 
-Your service source code is available at:
+<p>Your service source code is available at:<p>
 
-<https://github.com/companyco/reviews>
+<a href="">https://github.com/companyco/reviews</a>
 
 <nav class="form-nav">
   <a class="big-button" href="{{site_url}}/services/index.html">Dismiss</a>

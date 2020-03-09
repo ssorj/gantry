@@ -2,11 +2,11 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Add an interface
+<h1>Add an interface</h1>
 
 <form markdown="1">
 
-## Interface properties
+<h2>Interface properties</h2>
 
 <div class="form-entry">
   <div class="entry-title">Interface type</div>

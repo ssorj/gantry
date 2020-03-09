@@ -3,11 +3,11 @@
   <div id="-view-legend">{{app_name}} - Services</div>
   <nav>
     <a href="create/index.html" class="small-button">Create service</a>
-    <a href="" class="small-button">Add dependency</a>
+    <a href="" class="small-button">Add existing service</a>
   </nav>
 </div>
 
-<img src="{{site_url}}/images/services.svg"/>
+<img src="{{site_url}}/images/services-annotated.svg"/>
 
 <nav class="variants">
   <a href="index.html">Base</a>

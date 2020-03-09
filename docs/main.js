@@ -33,8 +33,11 @@ Element.prototype.$$ = function () {
 };
 
 window.addEventListener("load", () => {
-    let href = window.location.href;
     let nav = $("#-browser > nav");
+
+    if (!nav) return;
+
+    let href = window.location.href;
     let child = nav.firstChild;
 
     if (href.charAt(href.length - 1) === "/") {

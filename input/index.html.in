@@ -6,9 +6,9 @@
   </nav>
 </div>
 
-CompanyCo's North America online retail system.  It provides a web
+<p>CompanyCo's North America online retail system.  It provides a web
 frontend, order processing, and inventory management.  It is optimized
 for high availability and region-targeted, low-latency request
-processing.
+processing.</p>
 
 {{app_properties}}

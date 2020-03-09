@@ -16,29 +16,28 @@
   <section>
     <div>
 
-<h1 id="step-2-configure-your-service">Step 2 - Configure your service</h1>
 
-<form>
+<h1>Step 2 - Configure your service</h1>
 
-<h2 id="service-metadata">Service metadata</h2>
+<form markdown="1">
+
+<h2>Service metadata</h2>
 
 <div class="form-entry">
   <div class="entry-title">Name</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <input id="group" type="text" value="duplicates"/>
   </div>
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
-<h2 id="project-type">Project type</h2>
+<h2>Project type</h2>
 
 <div class="form-entry">
   <div class="entry-title">Build tool</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <select id="build-tool">
       <option value="maven">Maven</option>
       <option value="gradle">Gradle</option>
@@ -47,12 +46,11 @@
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
 <div class="form-entry">
   <div class="entry-title">Language</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <select id="programming-language" name="programming-language">
       <option value="groovy">Groovy</option>
       <option value="java">Java</option>
@@ -62,38 +60,35 @@
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
-<h2 id="project-metadata">Project metadata</h2>
+<h2>Project metadata</h2>
 
 <div class="form-entry">
   <div class="entry-title">Group</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <input id="group" type="text" placeholder="com.example" value="com.companyco"/>
   </div>
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
 <div class="form-entry">
   <div class="entry-title">Artifact</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <input id="artifact" type="text" value="duplicates"/>
   </div>
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
-<h2 id="camel-endpoints">Camel endpoints</h2>
+<h2>Camel endpoints</h2>
 
 <div class="form-entry">
   <div class="entry-title">Consumers</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <p><b>Kafka:</b> CompanyCo event store</p>
     <p><b>PostgreSQL:</b> CompanyCo data store</p>
     <a class="small-button" href="">Add consumer</a>
@@ -101,12 +96,11 @@
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
 <div class="form-entry">
   <div class="entry-title">Producers</div>
-
-<p><div class="entry-input">
+  <div class="entry-input">
     <p><b>Mail:</b> alerts@companyco.com</p>
     <p></p>
     <p></p>
@@ -115,25 +109,36 @@
   <div class="entry-info">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
   </div>
-</div></p>
+</div>
 
-<h2 id="camel-components">Camel components</h2>
+<h2>Camel components</h2>
 
-<div class="form-entry checkbox-columns"><div>
-  <h4>Databases</h4>
-  <div><input type="checkbox"/> LevelDB</div><div><input type="checkbox"/> MongoDB</div><div><input type="checkbox" checked="checked"/> PostgreSQL</div></div>
-
-<div>
-  <h4>Messaging</h4>
-  <div><input type="checkbox"/> JMS</div><div><input type="checkbox"/> AMQP</div><div><input type="checkbox" checked="checked"/> Kafka</div></div>
-
-<div>
-  <h4>Platforms</h4>
-  <div><input type="checkbox"/> Facebook</div><div><input type="checkbox"/> GitHub</div><div><input type="checkbox"/> Salesforce</div></div>
-
-<div>
-  <h4>Other</h4>
-  <div><input type="checkbox"/> File</div><div><input type="checkbox"/> HTTP</div><div><input type="checkbox" checked="checked"/> Mail</div></div></div>
+<div class="form-entry checkbox-columns">
+  <div>
+    <h4>Databases</h4>
+    <div><input type="checkbox"/> LevelDB</div>
+    <div><input type="checkbox"/> MongoDB</div>
+    <div><input type="checkbox" checked="checked"/> PostgreSQL</div>
+  </div>
+  <div>
+    <h4>Messaging</h4>
+    <div><input type="checkbox"/> JMS</div>
+    <div><input type="checkbox"/> AMQP</div>
+    <div><input type="checkbox" checked="checked"/> Kafka</div>
+  </div>
+  <div>
+    <h4>Platforms</h4>
+    <div><input type="checkbox"/> Facebook</div>
+    <div><input type="checkbox"/> GitHub</div>
+    <div><input type="checkbox"/> Salesforce</div>
+  </div>
+  <div>
+    <h4>Other</h4>
+    <div><input type="checkbox"/> File</div>
+    <div><input type="checkbox"/> HTTP</div>
+    <div><input type="checkbox" checked="checked"/> Mail</div>
+  </div>
+</div>
 
 <nav class="form-nav">
   <a class="big-button" href="result-camel.html">Create service &#11106;</a>
