@@ -3,6 +3,7 @@
   <div id="-view-legend">{{app_name}} - Deployments</div>
   <nav>
     <a href="create/index.html" class="small-button">Create deployment</a>
+    <a href="" class="small-button">Add existing deployment</a>
   </nav>
 </div>
 

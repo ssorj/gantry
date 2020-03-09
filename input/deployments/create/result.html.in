@@ -2,13 +2,13 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Deployment created
+<h1>Deployment created</h1>
 
 <hr/>
 
-Your service is now deployed at:
+<p>Your service is now deployed at:</p>
 
-<https://orders.2976.rh-us-east-1.openshiftapps.com/>
+<a href="">https://orders.2976.rh-us-east-1.openshiftapps.com/</a>
 
 <nav class="form-nav">
   <a class="big-button" href="{{site_url}}/deployments/index.html">Dismiss</a>
