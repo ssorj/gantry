@@ -2,11 +2,11 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Step 2 - Configure your site
+<h1>Step 2 - Configure your site</h1>
 
 <form markdown="1">
 
-## Namespace properties
+<h2>Namespace properties</h2>
 
 <div class="form-entry">
   <div class="entry-title">Name</div>

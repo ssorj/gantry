@@ -1,0 +1,11 @@
+---
+body_template: input/_transom/excursion.html
+---
+
+<h1>Step 1 - Choose your site type</h1>
+
+<p><a class="big-button" href="configure-site-openshift.html">Create an OpenShift namespace &#11106;</a></p>
+
+<p><a class="big-button gray-out" href="">Create an AKS namespace &#11106;</a></p>
+
+<p><a class="big-button gray-out" href="">Create an EKS namespace &#11106;</a></p>

@@ -2,13 +2,13 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Site created
+<h1>Site created</h1>
 
 <hr/>
 
-Your OpenShift namespace is now available at:
+<p>Your OpenShift namespace is now available at:</p>
 
-<https://console.example.openshift.com/console/project/eu-north>
+<a href="">https://console.example.openshift.com/console/project/eu-north</a>
 
 <nav class="form-nav">
   <a class="big-button" href="{{site_url}}/sites/index.html">Dismiss</a>
