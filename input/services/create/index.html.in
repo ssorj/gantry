@@ -6,7 +6,7 @@ body_template: input/_transom/excursion.html
 
 <h2>Integration services</h2>
 
-<p><a class="big-button" href="configure-service-camel.html">Create a Camel integration &#11106;</a></p>
+<p><a class="big-button" href="camel/index.html">Create a Camel integration &#11106;</a></p>
 
 <p><a class="big-button" href="">Create a Kafka connector &#11106;</a></p>
 
@@ -16,7 +16,7 @@ body_template: input/_transom/excursion.html
 
 <h2>Runtime services</h2>
 
-<p><a class="big-button" href="configure-service-quarkus.html">Create a Quarkus service &#11106;</a></p>
+<p><a class="big-button" href="quarkus/index.html">Create a Quarkus service &#11106;</a></p>
 
 <p><a class="big-button gray-out" href="">Create a Node.js service &#11106;</a></p>
 

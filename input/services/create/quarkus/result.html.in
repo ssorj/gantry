@@ -8,7 +8,7 @@ body_template: input/_transom/excursion.html
 
 <p>Your service source code is available at:<p>
 
-<a href="">https://github.com/companyco/reviews</a>
+<blockquote><a href="">https://github.com/companyco/reviews</a></blockquote>
 
 <nav class="form-nav">
   <a class="big-button" href="{{site_url}}/services/index.html">Dismiss</a>

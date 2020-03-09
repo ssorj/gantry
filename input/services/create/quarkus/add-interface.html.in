@@ -74,7 +74,7 @@ body_template: input/_transom/excursion.html
 </div>
 
 <nav class="form-nav">
-  <a class="big-button" href="configure-service-quarkus.html">Add interface</a>
+  <a class="big-button" href="index.html">Add interface</a>
 </nav>
 
 </form>

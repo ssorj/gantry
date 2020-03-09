@@ -8,11 +8,11 @@ body_template: input/_transom/excursion.html
 
 <p>Your service source code is available at:</p>
 
-<a href="">https://github.com/companyco/duplicates</a>
+<blockquote><a href="">https://github.com/companyco/duplicates</a></blockquote>
 
 <p>To start developing your integration, use the `kamel` command-line tool:</p>
 
-<pre><code>$ kamel run integration.groovy</code></pre>
+<code><pre>$ kamel run integration.groovy</pre></code>
 
 <p>For more information, see the <a href="">Camel K Getting Started
 guide</a>.</p>

@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>Gantry</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic|Ubuntu+Mono:400" type="text/css"/>
-    <link rel="stylesheet" href="https://www.ssorj.net/gantry/main.css" type="text/css"/>
-    <link rel="icon" href="" type="image/png"/>
-    <script type="text/javascript" src="https://www.ssorj.net/gantry/main.js" defer="defer"></script>
-
-
-
-  </head>
-
-<body id="-excursion">
-  <section>
-    <div>
-
+---
+body_template: input/_transom/excursion.html
+---
 
 <h1>Step 2 - Configure your service</h1>
 
@@ -29,7 +14,7 @@
     <input id="group" type="text" value="duplicates"/>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -44,7 +29,7 @@
     </select>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -58,7 +43,7 @@
     </select>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -70,7 +55,7 @@
     <input id="group" type="text" placeholder="com.example" value="com.companyco"/>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -80,7 +65,7 @@
     <input id="artifact" type="text" value="duplicates"/>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -94,7 +79,7 @@
     <a class="small-button" href="">Add consumer</a>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -107,7 +92,7 @@
     <a class="small-button" href="">Add producer</a>
   </div>
   <div class="entry-info">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim urna, ornare pellentesque felis eget.
+    {{lipsum(15)}}
   </div>
 </div>
 
@@ -141,15 +126,7 @@
 </div>
 
 <nav class="form-nav">
-  <a class="big-button" href="result-camel.html">Create service &#11106;</a>
+  <a class="big-button" href="result.html">Create service &#11106;</a>
 </nav>
 
 </form>
-
-
-    </div>
-  </section>
-</body>
-
-
-</html>

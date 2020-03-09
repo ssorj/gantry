@@ -2,11 +2,11 @@
 body_template: input/_transom/excursion.html
 ---
 
-# Step 2 - Configure your service
+<h1>Step 2 - Configure your service</h1>
 
 <form markdown="1">
 
-## Service metadata
+<h2>Service metadata</h2>
 
 <div class="form-entry">
   <div class="entry-title">Name</div>
@@ -18,7 +18,7 @@ body_template: input/_transom/excursion.html
   </div>
 </div>
 
-## Project type
+<h2>Project type</h2>
 
 <div class="form-entry">
   <div class="entry-title">Build tool</div>
@@ -47,7 +47,7 @@ body_template: input/_transom/excursion.html
   </div>
 </div>
 
-## Project metadata
+<h2>Project metadata</h2>
 
 <div class="form-entry">
   <div class="entry-title">Group</div>
@@ -69,7 +69,7 @@ body_template: input/_transom/excursion.html
   </div>
 </div>
 
-## Provided interfaces
+<h2>Provided interfaces</h2>
 
 <div class="item">
   <div class="item-icon"></div>
@@ -87,7 +87,7 @@ body_template: input/_transom/excursion.html
 <a class="small-button" href="add-interface.html">Add interface</a>
 
 <nav class="form-nav">
-  <a class="big-button" href="result-quarkus.html">Create service &#11106;</a>
+  <a class="big-button" href="result.html">Create service &#11106;</a>
 </nav>
 
 </form>
