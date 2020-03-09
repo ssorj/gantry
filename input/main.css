@@ -466,9 +466,15 @@ table.properties th {
 }
 
 .checkbox-columns > div {
-    flex-basis: 20%;
+    flex-grow: 1;
 }
 
 .checkbox-columns > div > h4 {
+    font-weight: 600;
+}
+
+/* --- */
+
+b {
     font-weight: 600;
 }

@@ -8,9 +8,9 @@ body_template: input/_transom/excursion.html
 
 <a class="big-button" href="configure-service-camel.html">Create a Camel integration &#11106;</a>
 
-<a class="big-button gray-out" href="">Create a 3scale API gateway &#11106;</a>
+<a class="big-button" href="">Create a Kafka connector &#11106;</a>
 
-<a class="big-button gray-out" href="">Create a Kafka event processor &#11106;</a>
+<a class="big-button gray-out" href="">Create a 3scale API gateway &#11106;</a>
 
 <a class="big-button gray-out" href="">Create an AMQP message processor &#11106;</a>
 
@@ -19,8 +19,6 @@ body_template: input/_transom/excursion.html
 <a class="big-button" href="configure-service-quarkus.html">Create a Quarkus service &#11106;</a>
 
 <a class="big-button gray-out" href="">Create a Node.js service &#11106;</a>
-
-<a class="big-button gray-out" href="">Create a Python service &#11106;</a>
 
 <a class="big-button gray-out" href="">Create a Spring Boot service &#11106;</a>
 

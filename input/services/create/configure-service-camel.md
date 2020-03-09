@@ -69,11 +69,38 @@ body_template: input/_transom/excursion.html
   </div>
 </div>
 
-## Components
+## Camel endpoints
+
+<div class="form-entry">
+  <div class="entry-title">Consumers</div>
+  <div class="entry-input">
+    <p><b>Kafka:</b> CompanyCo event store</p>
+    <p><b>PostgreSQL:</b> CompanyCo data store</p>
+    <a class="small-button" href="">Add consumer</a>
+  </div>
+  <div class="entry-info">
+    {{lipsum(15)}}
+  </div>
+</div>
+
+<div class="form-entry">
+  <div class="entry-title">Producers</div>
+  <div class="entry-input">
+    <p><b>Mail:</b> alerts@companyco.com</p>
+    <p></p>
+    <p></p>
+    <a class="small-button" href="">Add producer</a>
+  </div>
+  <div class="entry-info">
+    {{lipsum(15)}}
+  </div>
+</div>
+
+## Camel components
 
 <div class="form-entry checkbox-columns"><div>
   <h4>Databases</h4>
-  <div><input type="checkbox"/> LevelDB</div><div><input type="checkbox"/> MongoDB</div><div><input type="checkbox"/> PostgreSQL</div></div>
+  <div><input type="checkbox"/> LevelDB</div><div><input type="checkbox"/> MongoDB</div><div><input type="checkbox" checked="checked"/> PostgreSQL</div></div>
 <div>
   <h4>Messaging</h4>
   <div><input type="checkbox"/> JMS</div><div><input type="checkbox"/> AMQP</div><div><input type="checkbox" checked="checked"/> Kafka</div></div>
