@@ -458,3 +458,17 @@ nav.variants > a {
 table.properties th {
     padding-right: 2em;
 }
+
+/* --- */
+
+.checkbox-columns {
+    display: flex;
+}
+
+.checkbox-columns > div {
+    flex-basis: 20%;
+}
+
+.checkbox-columns > div > h4 {
+    font-weight: 600;
+}

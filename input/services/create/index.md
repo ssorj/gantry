@@ -6,7 +6,7 @@ body_template: input/_transom/excursion.html
 
 ## Integration services
 
-<a class="big-button" href="configure-service-camel-k-integration.html">Create a Camel K integration &#11106;</a>
+<a class="big-button" href="configure-service-camel.html">Create a Camel integration &#11106;</a>
 
 <a class="big-button gray-out" href="">Create a 3scale API gateway &#11106;</a>
 

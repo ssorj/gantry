@@ -11,7 +11,7 @@ body_template: input/_transom/excursion.html
 <div class="form-entry">
   <div class="entry-title">Name</div>
   <div class="entry-input">
-    <input id="group" type="text" placeholder="example" value="reviews"/>
+    <input id="group" type="text" value="duplicates"/>
   </div>
   <div class="entry-info">
     {{lipsum(15)}}
@@ -37,9 +37,9 @@ body_template: input/_transom/excursion.html
   <div class="entry-title">Language</div>
   <div class="entry-input">
     <select id="programming-language" name="programming-language">
+      <option value="groovy">Groovy</option>
       <option value="java">Java</option>
       <option value="kotlin">Kotlin</option>
-      <option value="groovy">Groovy</option>
     </select>
   </div>
   <div class="entry-info">
@@ -62,32 +62,29 @@ body_template: input/_transom/excursion.html
 <div class="form-entry">
   <div class="entry-title">Artifact</div>
   <div class="entry-input">
-    <input id="artifact" type="text" placeholder="example-application" value="reviews"/>
+    <input id="artifact" type="text" value="duplicates"/>
   </div>
   <div class="entry-info">
     {{lipsum(15)}}
   </div>
 </div>
 
-## Provided interfaces
+## Components
 
-<div class="item">
-  <div class="item-icon"></div>
-  <div class="item-text">
-    <div class="item-summary">
-      <b>REST API</b> at <code>http://reviews:8080/api/v1</code>
-      <a class="item-operation">Remove</a> <a class="item-operation">Edit</a>
-    </div>
-    <div class="item-info">
-      CompanyCo Reviews API v1.1
-    </div>
-  </div>
-</div>
-
-<a class="small-button" href="add-interface.html">Add interface</a>
-
+<div class="form-entry checkbox-columns"><div>
+  <h4>Databases</h4>
+  <div><input type="checkbox"/> LevelDB</div><div><input type="checkbox"/> MongoDB</div><div><input type="checkbox"/> PostgreSQL</div></div>
+<div>
+  <h4>Messaging</h4>
+  <div><input type="checkbox"/> JMS</div><div><input type="checkbox"/> AMQP</div><div><input type="checkbox" checked="checked"/> Kafka</div></div>
+<div>
+  <h4>Platforms</h4>
+  <div><input type="checkbox"/> Facebook</div><div><input type="checkbox"/> GitHub</div><div><input type="checkbox"/> Salesforce</div></div>
+<div>
+  <h4>Other</h4>
+  <div><input type="checkbox"/> File</div><div><input type="checkbox"/> HTTP</div><div><input type="checkbox" checked="checked"/> Mail</div></div></div>
 <nav class="form-nav">
-  <a class="big-button" href="result-quarkus.html">Create service &#11106;</a>
+  <a class="big-button" href="result-camel.html">Create service &#11106;</a>
 </nav>
 
 </form>

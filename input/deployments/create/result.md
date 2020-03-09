@@ -4,6 +4,8 @@ body_template: input/_transom/excursion.html
 
 # Deployment created
 
+<hr/>
+
 Your service is now deployed at:
 
 <https://orders.2976.rh-us-east-1.openshiftapps.com/>
