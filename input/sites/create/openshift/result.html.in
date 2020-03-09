@@ -8,7 +8,7 @@ body_template: input/_transom/excursion.html
 
 <p>Your OpenShift namespace is now available at:</p>
 
-<a href="">https://console.example.openshift.com/console/project/eu-north</a>
+<blockquote><a href="">https://console.example.openshift.com/console/project/eu-north</a></blockquote>
 
 <nav class="form-nav">
   <a class="big-button" href="{{site_url}}/sites/index.html">Dismiss</a>
