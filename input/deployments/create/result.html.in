@@ -8,7 +8,7 @@ body_template: input/_transom/excursion.html
 
 <p>Your service is now deployed at:</p>
 
-<a href="">https://orders.2976.rh-us-east-1.openshiftapps.com/</a>
+<blockquote><a href="">https://orders.2976.rh-us-east-1.openshiftapps.com/</a></blockquote>
 
 <nav class="form-nav">
   <a class="big-button" href="{{site_url}}/deployments/index.html">Dismiss</a>
