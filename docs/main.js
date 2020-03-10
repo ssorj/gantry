@@ -33,20 +33,32 @@ Element.prototype.$$ = function () {
 };
 
 window.addEventListener("load", () => {
+    function splitPath(path) {
+        let index = path.lastIndexOf("/");
+        let parent = path.substring(0, index);
+        let child = path.substring(index + 1);
+
+        return [parent, child];
+    }
+
+    function lastDir(path) {
+        let dirPath = splitPath(path)[0];
+        let dirName = splitPath(dirPath)[1];
+
+        return dirName;
+    }
+
     let nav = $("#-browser > nav");
 
     if (!nav) return;
 
-    let href = window.location.href;
+    let href = window.location.href.toString();
     let child = nav.firstChild;
-
-    if (href.charAt(href.length - 1) === "/") {
-        href += "index.html";
-    }
+    let currentDir = lastDir(href);
 
     while (child) {
         if (child.nodeType === 1) {
-            if (child.href === href) {
+            if (child.href && lastDir(child.href) === currentDir) {
                 child.classList.add("selected");
             }
         }
