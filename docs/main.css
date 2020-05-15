@@ -46,7 +46,6 @@ body {
     font: 13pt/19pt "Source Sans Pro", sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.8);
-    text-rendering: optimizeLegibility;
 }
 
 code,
