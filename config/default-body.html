@@ -1,5 +1,5 @@
 <body>
-  {{include(page, "includes/header.html")}}
+  {{page.include("includes/header.html")}}
 
   <section>
     <div id="-browser">
@@ -18,11 +18,11 @@
       </nav>
       <main>
 
-@content@
+{{page.content}}
 
       </main>
     </div>
   </section>
 
-  {{include(page, "includes/footer.html")}}
+  {{page.include("includes/footer.html")}}
 </body>

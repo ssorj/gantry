@@ -1,12 +1,13 @@
 app_name = "CompanyCo online store"
 
-def _render_cell(row_index, column_index, cell):
+def _render_cell(column_index, value):
     if column_index in (0, 1, 5):
-        return f"<a href=\"\">{cell}</a>"
+        value = f"<a href=\"\">{value}</a>"
 
-    return cell
+    return f"<td>{value}</td>"
 
-process_table = html_table_csv("data/processes.csv", cell_render_fn=_render_cell)
+table_headings = "Name", "Deployment", "CPU", "Memory", "Storage", "Image"
+process_table = html_table_csv("data/processes.csv", headings=table_headings, cell_fn=_render_cell)
 
 _app_data = [
     ["Source code", "<a href=\"https://github.com/companyco\">https://github.com/companyco</a>"],
@@ -14,3 +15,5 @@ _app_data = [
 ]
 
 app_properties = html_table(_app_data, column_headings=False, row_headings=True, class_="properties")
+
+site_url = ""

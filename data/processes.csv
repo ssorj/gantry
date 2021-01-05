@@ -1,4 +1,3 @@
-Name,Deployment,CPU,Memory,Storage,Image
 reviews-1-m3o99,na-west/reviews,80%,50%,20%,companyco/reviews 7d19efc
 postgres-2-8majj,headquarters/postgres,80%,30%,60%,postgres/12.2 05e2ec8
 strimzi-1-3jam4,headquarters/strimzi,64%,50%,20%,strimzi/1.1 892bc1c

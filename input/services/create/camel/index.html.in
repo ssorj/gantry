@@ -1,5 +1,5 @@
 ---
-body_template: input/_transom/excursion.html
+body_template: config/excursion.html
 ---
 
 <h1>Step 2 - Configure your service</h1>

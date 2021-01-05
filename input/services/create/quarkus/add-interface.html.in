@@ -1,5 +1,5 @@
 ---
-body_template: input/_transom/excursion.html
+body_template: config/excursion.html
 ---
 
 <h1>Add an interface</h1>

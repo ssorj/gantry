@@ -8,10 +8,11 @@
     <link rel="icon" href="" type="image/png"/>
     <script type="text/javascript" src="{{site_url}}/main.js" defer="defer"></script>
 
-@extra_headers@
+{{page.reload_script}}
+{{page.extra_headers}}
 
   </head>
 
-@body_template@
+{{page.body}}
 
 </html>
